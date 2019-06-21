@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".TableActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/bt_table01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_table"
+            android:text="1号桌\n(可用)"
+            android:textSize="30sp"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_table"
+            android:text="2号桌\n(可用)"
+            android:textSize="30sp"
+            android:layout_margin="15dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+        <Button
+            android:id="@+id/bt_table03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_notable"
+            android:text="3号桌\n(不可用)"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_table"
+            android:text="4号桌\n(可用)"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_table"
+            android:text="5号桌\n(可用)"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_notable"
+            android:text="6号桌\n(不可用)"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_notable"
+            android:text="7号桌\n(不可用)"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_table"
+            android:text="8号桌\n(可用)"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_table"
+            android:text="9号桌\n(可用)"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_table"
+            android:text="10号桌\n(可用)"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

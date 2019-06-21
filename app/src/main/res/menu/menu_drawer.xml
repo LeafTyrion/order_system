@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_lu"
+            android:title="鲁菜" />
+        <item
+            android:id="@+id/nav_chuan"
+            android:title="川菜" />
+        <item
+            android:id="@+id/nav_yue"
+            android:title="粤菜" />
+        <item
+            android:id="@+id/nav_xiang"
+            android:title="湘菜" />
+        <item
+            android:id="@+id/nav_meat"
+            android:title="肉菜" />
+        <item
+            android:id="@+id/nav_vegetable"
+            android:title="素菜"/>
+        <item
+            android:id="@+id/nav_soup"
+            android:title="汤品"/>
+        <item
+            android:id="@+id/nav_food"
+            android:title="主食" />
+        <item
+            android:id="@+id/nav_menu"
+            android:title="我的菜单" />
+    </group>
+</menu>
